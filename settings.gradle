@@ -3,7 +3,7 @@
  */
 
 rootProject.name = 'lou-controller'
-include(':nifi-lou-api')
-include(':nifi-lou-api-nar')
-include(':nifi-lou')
-include(':nifi-lou-nar')
+include(':lou-api')
+include(':lou-api-nar')
+include(':lou')
+include(':lou-nar')

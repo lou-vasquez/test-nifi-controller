@@ -17,6 +17,6 @@ buildscript {
 apply plugin: 'de.fanero.gradle.plugin.nar'
 
 dependencies {
-    compile 'org.apache.nifi:nifi-standard-services-api-nar:1.9.2'
-    compile project(':nifi-lou-api')
+    compile project(':lou-api-nar')
+    compile project(':lou')
 }
